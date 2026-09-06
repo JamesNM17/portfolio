@@ -1,7 +1,3 @@
-// ==========================
-// REVEAL AO ROLAR A PÁGINA
-// ==========================
-
 const reveals = document.querySelectorAll(".reveal");
 
 function revealSections() {
@@ -20,11 +16,6 @@ function revealSections() {
 window.addEventListener("scroll", revealSections);
 revealSections();
 
-
-// ==========================
-// HEADER DINÂMICO
-// ==========================
-
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
@@ -36,11 +27,6 @@ window.addEventListener("scroll", () => {
     }
 
 });
-
-
-// ==========================
-// PARTÍCULAS DE FUNDO
-// ==========================
 
 const canvas = document.createElement("canvas");
 const particlesContainer = document.getElementById("particles");
@@ -190,11 +176,6 @@ function animateParticles() {
 
 animateParticles();
 
-
-// ==========================
-// SCROLL SUAVE MENU
-// ==========================
-
 document
     .querySelectorAll('a[href^="#"]')
     .forEach(link => {
@@ -220,11 +201,6 @@ document
         });
 
     });
-
-
-// ==========================
-// DIGITAÇÃO NO TÍTULO
-// ==========================
 
 const title = document.querySelector(".hero h2");
 
